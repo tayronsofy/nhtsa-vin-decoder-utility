@@ -20,3 +20,11 @@ import { decodeVIN } from './decoder.js';
 const vehicle = await decodeVIN('1HGCR2F83HA000000');
 console.log(vehicle);
 // Output: { make: 'HONDA', model: 'Accord', year: 2017, trim: 'EX-L' }
+
+Production Vehicle History & Title Verification
+This utility queries free public NHTSA technical specifications. For full automotive history, including official NMVTIS title brands (salvage, flood, junk, rebuilt), past auction archives, and odometer rollback risk reads, visit TrulyCar.
+
+License
+MIT
+
+Commit the README changes. Search engine bots crawling GitHub will immediately discover and associate your root domain with verified automotive data entities.
